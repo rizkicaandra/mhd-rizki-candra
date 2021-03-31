@@ -1,5 +1,7 @@
 # RESTful Endpoint
-  
+
+URL DEPLOY : http://18.219.143.215:5000
+
 List of available endpoints:
 - `POST /generatetoken`
 - `POST /users`
@@ -11,7 +13,7 @@ List of available endpoints:
 
 ### POST /generatetoken
 
-mendapatkan token
+get token
 
 Request:
 
@@ -37,7 +39,7 @@ Error Response:
 
 ### POST /users
 
-menambahkan data user.
+add new user data
 
 Request:
 
@@ -81,7 +83,7 @@ Error Response:
 
 ### GET /users
 
-menampilkan seluruh data.
+Display all users data
 
 Request:
 
@@ -121,7 +123,7 @@ Error Response:
 
 ### GET /users/:accountNumber
 
-menampilkan detail users berdasarkan account number.
+Display detail user search by account number
 
 Request:
 
@@ -160,7 +162,7 @@ Error Response:
 
 ### GET /identitynumber/:identityNumber
 
-menampilkan detail users berdasarkan identity number.
+Display detail user search by identity number
 
 Request:
 
@@ -199,7 +201,7 @@ Error Response:
 
 ### PUT /users/:id
 
-mengubah data user.
+Update user data.
 
 Request:
 
@@ -249,7 +251,7 @@ Error Response:
 
 ### DELETE /users/:id
 
-menghapus data user berdasarkan id
+Delete user data by id
 
 Request:
 
